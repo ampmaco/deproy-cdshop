@@ -1,0 +1,5 @@
+<h1>レビューを投稿する</h1>
+<%= form_for [@item, @review] do |f| %>
+	<%= f.text_area :body %><br>
+	<%= f.submit '投稿' %>
+<% end %>
